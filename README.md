@@ -1,2 +1,2 @@
 # myportfolio
-my website
+these are files that relate to my website
