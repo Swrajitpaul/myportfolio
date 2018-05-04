@@ -29,8 +29,8 @@ a:link{
     cursor: pointer;
 }
 .aboutme{
-  border-color: green;
-  color: green;
+  border-color: black;
+  color: black;
 }
 .description{
   position: fixed;
