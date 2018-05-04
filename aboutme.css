@@ -1,0 +1,49 @@
+body {
+  background-color: grey;
+}
+header{
+  position: fixed;
+  left: 40%;
+  bottom: 80%;
+}
+h1{
+  font-style: normal;
+  font-size: 35px;
+  font-family: "Times New Roman", Times, serif;
+  color: grey;
+  border-style: solid;
+  background-color: white;
+  border-color: yellow;
+  padding: 10px 14px;
+}
+a:link{
+  color: grey;
+  text-decoration: none;
+}
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 7px 14px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.aboutme{
+  border-color: green;
+  color: green;
+}
+.description{
+  position: fixed;
+  left: 30%;
+  right: 30%;
+  bottom: 50%;
+  color: white;
+}
+footer{
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
