@@ -38,6 +38,10 @@ img{
 
 .btn:hover {background: beige;}
 
+.homepage{
+  background-color: crimson;
+}
+
 footer{
     background-color: grey;
     position: fixed;
