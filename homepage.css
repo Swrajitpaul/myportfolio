@@ -5,7 +5,6 @@ h1{
   font-style: normal;
   font-size: 5em;
   font-family: "Times New Roman", Times, serif;
-  color: black;
   position: fixed;
   left: 39%;
   bottom: 43.5%;
@@ -29,37 +28,28 @@ nav{
     font-size: 16px;
     cursor: pointer;
     display: inline-block;
+    border-radius: 50%;
 }
 
 .homepage{
   color:black;
   border-style: dashed;
-  border-radius: 50%;
   border-color: red;
-  color: black;
 }
 
 .aboutme{
-  color:black;
-  border-radius: 50%;
   color: lightgreen;
 }
 
 .linkedin{
-  color:black;
-  border-radius: 50%;
   color: blue;
 }
 
 .myresume{
-  color:black;
-  border-radius: 50%;
   color: red;
 }
 
 .myprojects{
-  color:black;
-  border-radius: 50%;
   color: orange;
 }
 
@@ -81,7 +71,59 @@ img.image{
 
 .btn:hover {background: beige;}
 
+.c{
+  position: fixed;
+  left:80%;
+  top: 8%;
+  color: #7f1b41;
+  font-size: 30px;
+  transform: rotate(25deg);
+}
 
+.java{
+  position: fixed;
+  left:12%;
+  top: 15%;
+  color: #feaa8f;
+  font-size: 30px;
+  transform: rotate(-20deg);
+}
+
+.python{
+  position: fixed;
+  left:18%;
+  top: 55%;
+  color: #0cbc66;
+  font-size: 30px;
+  transform: rotate(15deg);
+}
+
+.html{
+  position: fixed;
+  left:52%;
+  top: 8%;
+  color: #518ca8;
+  font-size: 30px;
+  transform: skewX(3deg);
+}
+
+.javascript{
+  position: fixed;
+  left:47%;
+  top: 55%;
+  color: #9d7a5d;
+  font-size: 30px;
+  transform: skewX(3deg);
+}
+
+.sql{
+  position: fixed;
+  left:70%;
+  top: 48%;
+  color: #9c9fe0;
+  font-size: 30px;
+  transform: rotate(-25deg);
+}
 footer{
     background-color: grey;
     position: fixed;
