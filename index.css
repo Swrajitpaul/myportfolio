@@ -1,0 +1,41 @@
+body{
+    background-image: url(codes.jpg);
+    background-repeat: repeat;
+    background-position: top left;
+}
+
+h1{
+  position: fixed;
+  top: 30%;
+  left: 30%;
+
+  font-family: "Lucida Console", monospace;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 4em;
+
+  background-color: white;
+  color: blue;
+}
+
+a{
+  position: fixed;
+  top: 50%;
+  left: 45%;
+}
+
+button:hover{
+  background: blue;
+}
+
+button {
+    border-style: onset;
+    border-color: blue;
+    background-color: white;
+    color: dodgerblue;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+}

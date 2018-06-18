@@ -1,0 +1,86 @@
+body {
+  background-color: White;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+nav{
+  position: fixed;
+  left: 2%;
+  top: 7%;
+}
+.btn {
+    border: none;
+    background-color:inherit;
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.homepage{
+  color:black;
+  border-radius: 50%;
+  color: black;
+}
+
+.aboutme{
+  color:black;
+  border-radius: 50%;
+  color: lightgreen;
+
+}
+
+.linkedin{
+  color:black;
+  border-radius: 50%;
+  color: blue;
+}
+
+.myresume{
+  color:black;
+  border-radius: 50%;
+  color: red;
+}
+
+.myprojects{
+  color:black;
+  border-radius: 50%;
+  color: orange;
+  border-style: dashed;
+  border-color: red;
+}
+
+.title{
+  font-style: normal;
+  font-size: 3em;
+  font-family: "Times New Roman", Times, serif;
+  color: orange;
+  position: fixed;
+  left: 1%;
+  top: 0%;
+}
+
+.btn:hover {background: beige;}
+
+div{
+  position: relative;
+  left: 23%;
+  right: 20%;
+  background-color: beige;
+
+}
+
+footer{
+    background-color: grey;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}

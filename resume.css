@@ -1,0 +1,114 @@
+body {
+  background-color: White;
+}
+h1{
+  font-style: normal;
+  font-size: 5em;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  position: fixed;
+  left: 39%;
+  bottom: 43.5%;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+nav{
+  position: fixed;
+  left: 2%;
+  top: 7%;
+}
+.btn {
+    border: none;
+    background-color:inherit;
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.homepage{
+  color:black;
+  border-radius: 50%;
+  color: black;
+}
+
+.aboutme{
+  color:black;
+  border-radius: 50%;
+  color: lightgreen;
+
+}
+
+.linkedin{
+  color:black;
+  border-radius: 50%;
+  color: blue;
+}
+
+.myresume{
+  color:black;
+  border-radius: 50%;
+  color: red;
+  border-style: dashed;
+  border-color: red;
+}
+
+.myprojects{
+  color:black;
+  border-radius: 50%;
+  color: orange;
+}
+
+.title{
+  font-style: normal;
+  font-size: 3em;
+  font-family: "Times New Roman", Times, serif;
+  color: red;
+  position: fixed;
+  left: 1%;
+  top: 0%;
+}
+
+.download{
+  border: none;
+  border-style: groove;
+  border-color: red;
+  background-color: beige;
+  padding: 20px 20px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  position: fixed;
+  left: 45%;
+  bottom:10%;
+}
+
+section{
+  position: fixed;
+  left: 20%;
+  top: 10%;
+}
+.btn:hover {background: beige;}
+
+div{
+  position: relative;
+  left: 20%;
+  right: 20%;
+  background-color: beige;
+
+}
+footer{
+    background-color: grey;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
