@@ -20,6 +20,7 @@ nav{
   left: 2%;
   top: 7%;
 }
+
 .btn {
     border: none;
     background-color:inherit;
@@ -29,38 +30,28 @@ nav{
     font-size: 16px;
     cursor: pointer;
     display: inline-block;
+    border-radius: 50%;
 }
 
 .homepage{
   color:black;
-  border-radius: 50%;
-  color: black;
 }
 
 .aboutme{
-  color:black;
-  border-radius: 50%;
   color: lightgreen;
-
 }
 
 .linkedin{
-  color:black;
-  border-radius: 50%;
   color: blue;
 }
 
 .myresume{
-  color:black;
-  border-radius: 50%;
   color: red;
   border-style: dashed;
   border-color: red;
 }
 
 .myprojects{
-  color:black;
-  border-radius: 50%;
   color: orange;
 }
 

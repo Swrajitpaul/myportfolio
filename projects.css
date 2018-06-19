@@ -13,6 +13,7 @@ nav{
   left: 2%;
   top: 7%;
 }
+
 .btn {
     border: none;
     background-color:inherit;
@@ -22,39 +23,44 @@ nav{
     font-size: 16px;
     cursor: pointer;
     display: inline-block;
+    border-radius: 50%;
 }
 
 .homepage{
   color:black;
-  border-radius: 50%;
-  color: black;
 }
 
 .aboutme{
-  color:black;
-  border-radius: 50%;
   color: lightgreen;
-
 }
 
 .linkedin{
-  color:black;
-  border-radius: 50%;
   color: blue;
 }
 
 .myresume{
-  color:black;
-  border-radius: 50%;
   color: red;
 }
 
 .myprojects{
-  color:black;
-  border-radius: 50%;
   color: orange;
   border-style: dashed;
   border-color: red;
+}
+
+.download{
+    background-color: beige;
+    border-style: ridge;
+    color: red;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.download:hover{
+  background: khaki;
 }
 
 .title{
@@ -73,8 +79,11 @@ div{
   position: relative;
   left: 23%;
   right: 20%;
-  background-color: beige;
+}
 
+h2{
+  text-decoration: underline;
+  color: darkorange;
 }
 
 footer{
