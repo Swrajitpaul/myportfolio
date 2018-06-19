@@ -71,7 +71,7 @@ h2{
   color:#26fc9a;
 }
 
-p:hover{
+div > p:hover {
   background-color: beige;
 }
 
