@@ -1,7 +1,7 @@
 body {
   background-color: White;
   overflow-y: scroll;
-overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 a:link{
@@ -71,12 +71,23 @@ h2{
   color:#26fc9a;
 }
 
+p:hover{
+  background-color: beige;
+}
+
+ul{
+  background-color: #26fcaf;
+  width: 400px;
+}
+li{
+  background-color: #26fcaf;
+}
 footer{
-    background-color: grey;
+    background-color: lightgrey;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    color: white;
+    color: black;
     text-align: center;
 }

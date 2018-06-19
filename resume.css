@@ -94,12 +94,13 @@ div{
   background-color: beige;
 
 }
+
 footer{
-    background-color: grey;
+    background-color: lightgrey;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    color: white;
+    color: black;
     text-align: center;
 }
