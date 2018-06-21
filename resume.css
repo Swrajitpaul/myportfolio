@@ -85,7 +85,10 @@ section{
   left: 20%;
   top: 10%;
 }
-.btn:hover {background: beige;}
+.download:hover {
+  color: red;
+  background: white;
+}
 
 div{
   position: relative;
