@@ -86,9 +86,6 @@ h2{
   color: darkorange;
 }
 
-div > p:hover {
-  background-color: beige;
-}
 
 footer{
     background-color: lightgrey;

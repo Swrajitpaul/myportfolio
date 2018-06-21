@@ -90,6 +90,8 @@ section{
   background: white;
 }
 
+.btn:hover {background: beige;}
+
 div{
   position: relative;
   left: 20%;
