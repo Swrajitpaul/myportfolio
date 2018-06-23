@@ -8,7 +8,7 @@ setTimeout(
 function download(){
   var answer = confirm("Do you want to download?");
   if(answer == true){
-    window.open("resume.docx","_self")
+    window.open("myresume.docx","_self")
   }
   else {
 
