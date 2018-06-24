@@ -125,6 +125,59 @@ img.image{
   transform: rotate(-25deg);
 }
 
+#c{
+  position: fixed;
+  left:70%;
+  top: 5%;
+  color: #7f1b41;
+  font-size: 50px;
+  transform: rotate(5deg);
+}
+
+#java{
+  position: fixed;
+  left:15%;
+  top: 5%;
+  color: #1c0512;
+  font-size: 50px;
+  transform: rotate(-20deg);
+}
+
+#python{
+  position: fixed;
+  left:20%;
+  top: 70%;
+  color: #21145e;
+  font-size: 50px;
+  transform: rotate(8deg);
+}
+
+#html{
+  position: fixed;
+  left:40%;
+  top: 16%;
+  color: #05c9a2;
+  font-size: 50px;
+  transform: rotate(-20deg);
+}
+
+#javascript{
+  position: fixed;
+  left:47%;
+  top: 70%;
+  color: #eecb84;
+  font-size: 50px;
+  transform: rotate(-13deg);
+}
+
+#sql{
+  position: fixed;
+  left:85%;
+  top: 70%;
+  color: #f14d07;
+  font-size: 50px;
+  transform: rotate(-2deg);
+}
 
 footer{
     background-color: lightgrey;
