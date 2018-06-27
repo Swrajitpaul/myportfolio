@@ -96,11 +96,20 @@ img{
   border-style: solid;
   border-width: 10px;
   border-color: #26fcaf;
+  transition: transform .2s;
 }
 
+img:hover{
+  transform: scale(1.5);
+}
+
+div p{
+  transition: transform .2s;
+}
 div p:hover{
   background-color: beige;
   font-size: 20px;
+  transform: scale(1.1);
 }
 footer{
     background-color: lightgrey;
