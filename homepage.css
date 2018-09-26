@@ -1,7 +1,9 @@
 body {
-  background-color: White;
+  background-repeat: repeat;
+  background-position: top left;
 }
 h1{
+  background-color: white;
   font-style: normal;
   font-size: 5em;
   font-family: "Times New Roman", Times, serif;
@@ -21,7 +23,7 @@ nav{
 }
 .btn {
     border: none;
-    background-color:inherit;
+    background-color:white;
     width: 130px;
     height: 130px;
     text-align: center;
