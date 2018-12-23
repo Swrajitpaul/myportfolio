@@ -27,26 +27,14 @@ a:link{
     display: inline-block;
 }
 
+.btn:hover{
+  background-color: tomato;
+}
+
 .homepage{
   color:black;
-  border-style: dashed;
+  border-style: solid;
   border-color: red;
-}
-
-.aboutme{
-  color: lightgreen;
-}
-
-.linkedin{
-  color: blue;
-}
-
-.myresume{
-  color: red;
-}
-
-.myprojects{
-  color: orange;
 }
 
 img.image{

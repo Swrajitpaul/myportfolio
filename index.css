@@ -1,7 +1,5 @@
 body{
-    background-image: url(codes.jpg);
-    background-repeat: repeat;
-    background-position: top left;
+
 }
 
 h1{
@@ -14,7 +12,7 @@ h1{
   font-weight: lighter;
   font-size: 4em;
 
-  background-color: white;
+  background-color: inherit;
   color: blue;
 }
 
@@ -39,4 +37,116 @@ button {
     font-weight: lighter;
     cursor: pointer;
     display: inline-block;
+}
+
+div p:hover  {
+  background-color: beige;
+}
+
+.c{
+  position: fixed;
+  left:80%;
+  top: 8%;
+  color: #7f1b41;
+  font-size: 30px;
+  transform: rotate(25deg);
+}
+
+.java{
+  position: fixed;
+  left:12%;
+  top: 15%;
+  color: #feaa8f;
+  font-size: 30px;
+  transform: rotate(-20deg);
+}
+
+.python{
+  position: fixed;
+  left:12%;
+  top: 55%;
+  color: #0cbc66;
+  font-size: 30px;
+  transform: rotate(15deg);
+}
+
+.html{
+  position: fixed;
+  left:52%;
+  top: 8%;
+  color: #518ca8;
+  font-size: 30px;
+  transform: skewX(3deg);
+}
+
+.javascript{
+  position: fixed;
+  left:42%;
+  top: 60%;
+  color: #9d7a5d;
+  font-size: 30px;
+  transform: skewX(3deg);
+}
+
+.sql{
+  position: fixed;
+  left:70%;
+  top: 50%;
+  color: #9c9fe0;
+  font-size: 30px;
+  transform: rotate(-25deg);
+}
+
+#c{
+  position: fixed;
+  left:70%;
+  top: 5%;
+  color: #7f1b41;
+  font-size: 50px;
+  transform: rotate(5deg);
+}
+
+#java{
+  position: fixed;
+  left:5%;
+  top: 5%;
+  color: #1c0512;
+  font-size: 50px;
+  transform: rotate(-20deg);
+}
+
+#python{
+  position: fixed;
+  left:5%;
+  top: 70%;
+  color: #21145e;
+  font-size: 50px;
+  transform: rotate(8deg);
+}
+
+#html{
+  position: fixed;
+  left:40%;
+  top: 16%;
+  color: #05c9a2;
+  font-size: 50px;
+  transform: rotate(-20deg);
+}
+
+#javascript{
+  position: fixed;
+  left:42%;
+  top: 75%;
+  color: #eecb84;
+  font-size: 50px;
+  transform: rotate(-13deg);
+}
+
+#sql{
+  position: fixed;
+  left:85%;
+  top: 70%;
+  color: #f14d07;
+  font-size: 50px;
+  transform: rotate(-2deg);
 }
