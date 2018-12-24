@@ -1,7 +1,16 @@
 body {
-  background-color: White;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  background-repeat: repeat;
+  background-position: top left;
+  text-align: center;
+}
+h1{
+  background-color: white;
+  font-style: normal;
+  font-size: 5em;
+  font-family: "Times New Roman", Times, serif;
+  position: fixed;
+  left: 39%;
+  bottom: 43.5%;
 }
 
 a:link{
@@ -9,73 +18,27 @@ a:link{
 }
 
 nav{
-  position: fixed;
-  left: 2%;
-  top: 7%;
-}
-
-.tabs{
-  background-color: beige;
-  border-color: lightgreen;
-  border-width: 2px;
-  width: 180px;
-  height: 50px;
-  text-align: center;
-  font-size: 16px;
-  cursor: pointer;
-  display: inline-block;
+  overflow: hidden;
+  background-color: white;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 
 .btn {
     border: none;
-    background-color:inherit;
+    background-color:white;
     width: 130px;
-    height: 130px;
+    height: 50px;
     text-align: center;
     font-size: 16px;
     cursor: pointer;
     display: inline-block;
-    border-radius: 50%;
-}
-
-.homepage{
-  color:black;
-}
-
-.aboutme{
-  color: lightgreen;
-  border-style: dashed;
-  border-color: red;
-}
-
-.linkedin{
-  color: blue;
-}
-
-.myresume{
-  color: red;
-}
-
-.myprojects{
-  color: orange;
-}
-
-.title{
-  font-style: normal;
-  font-size: 3em;
-  font-family: "Times New Roman", Times, serif;
-  color: lightgreen;
-  position: fixed;
-  left: 1%;
-  top: 0%;
-}
-
+  }
 .btn:hover {background: beige;}
 
 div{
-  position: relative;
-  left: 20%;
-  right: 20%;
+  position: center;
 }
 
 h2{
@@ -83,13 +46,11 @@ h2{
   color:#26fc9a;
 }
 
-ul{
-  border-color: #26fcaf;
-  border-width: 10px;
+
+.aboutme{
+  color:black;
   border-style: solid;
-  padding: 20px;
-  background-color: beige;
-  width: 400px;
+  border-color: red;
 }
 
 img{

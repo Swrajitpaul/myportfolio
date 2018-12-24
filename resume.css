@@ -1,11 +1,13 @@
 body {
-  background-color: White;
+  background-repeat: repeat;
+  background-position: top left;
+  text-align: center;
 }
 h1{
+  background-color: white;
   font-style: normal;
   font-size: 5em;
   font-family: "Times New Roman", Times, serif;
-  color: black;
   position: fixed;
   left: 39%;
   bottom: 43.5%;
@@ -16,53 +18,32 @@ a:link{
 }
 
 nav{
-  position: fixed;
-  left: 2%;
-  top: 7%;
+  overflow: hidden;
+  background-color: white;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 
 .btn {
     border: none;
-    background-color:inherit;
+    background-color:white;
     width: 130px;
-    height: 130px;
+    height: 50px;
     text-align: center;
     font-size: 16px;
     cursor: pointer;
     display: inline-block;
-    border-radius: 50%;
 }
 
-.homepage{
-  color:black;
-}
-
-.aboutme{
-  color: lightgreen;
-}
-
-.linkedin{
-  color: blue;
+.btn:hover{
+  background-color: tomato;
 }
 
 .myresume{
-  color: red;
-  border-style: dashed;
+  color:black;
+  border-style: solid;
   border-color: red;
-}
-
-.myprojects{
-  color: orange;
-}
-
-.title{
-  font-style: normal;
-  font-size: 3em;
-  font-family: "Times New Roman", Times, serif;
-  color: red;
-  position: fixed;
-  left: 1%;
-  top: 0%;
 }
 
 .download{
@@ -80,24 +61,9 @@ nav{
   bottom:10%;
 }
 
-section{
-  position: fixed;
-  left: 20%;
-  top: 10%;
-}
 .download:hover {
   color: red;
   background: white;
-}
-
-.btn:hover {background: beige;}
-
-div{
-  position: relative;
-  left: 20%;
-  right: 20%;
-  background-color: beige;
-
 }
 
 footer{
