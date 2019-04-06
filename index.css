@@ -6,7 +6,7 @@ h1{
   background-color: white;
   font-style: normal;
   font-size: 5em;
-  font: "Times New Roman";
+  font: oblique "Times New Roman";
   position: fixed;
   left: 32%;
   bottom: 43.5%;
@@ -16,17 +16,17 @@ h2{
   background-color: white;
   font-style: normal;
   font-size: 5em;
-  font: italic bold 80px cursive;
+  font: italic bold 50px Georgia, serif;
   position: fixed;
   left: 40%;
-  bottom: 55.5%;
+  bottom: 58%;
 }
 
 h3{
   background-color: white;
   font-style: normal;
   font-size: 5em;
-  font: italic bold 50px cursive;
+  font: italic bold 50px Georgia, serif;;
   position: fixed;
   left: 45%;
   bottom: 35.5%;
