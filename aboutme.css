@@ -66,7 +66,7 @@ h2{
 img{
   border-style: solid;
   border-width: 10px;
-  transition: transform .2s;
+  border-color: black;
 }
 
 
