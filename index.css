@@ -6,10 +6,30 @@ h1{
   background-color: white;
   font-style: normal;
   font-size: 5em;
-  font-family: "Times New Roman", Times, serif;
+  font: "Times New Roman";
   position: fixed;
-  left: 35%;
+  left: 32%;
   bottom: 43.5%;
+}
+
+h2{
+  background-color: white;
+  font-style: normal;
+  font-size: 5em;
+  font: italic bold 80px cursive;
+  position: fixed;
+  left: 40%;
+  bottom: 55.5%;
+}
+
+h3{
+  background-color: white;
+  font-style: normal;
+  font-size: 5em;
+  font: italic bold 50px cursive;
+  position: fixed;
+  left: 45%;
+  bottom: 35.5%;
 }
 
 a:link{
