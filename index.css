@@ -6,7 +6,7 @@ h1{
   background-color: white;
   font-style: normal;
   font-size: 5em;
-  font: oblique "Times New Roman";
+  font: italic bold 80px Georgia, serif;
   position: fixed;
   left: 29%;
   bottom: 43.5%;
